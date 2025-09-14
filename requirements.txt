@@ -1,16 +1,24 @@
 fastapi==0.115.14
 pydantic==2.11.7
+
+# LangChain ecosystem
 langchain==0.1.16
-langchain_community==0.0.33
-langchain_core==0.1.43
-langchain_text_splitters==0.0.2
+langchain-community==0.0.33
+langchain-core>=0.1.43,<0.2.0
+langchain-text-splitters==0.0.2
+langchain-google-genai>=2.1.11
+
+# Vector & embeddings
 faiss-cpu==1.10.0
-sentence_transformers==3.2.1
+sentence-transformers==3.2.1
 huggingface_hub==0.33.0
-google.generativeai==0.8.5
-python_dotenv==1.0.1
+
+# Google Generative AI
+google-generativeai==0.8.5
+
+# Utils
+python-dotenv==1.0.1
 pypdf==5.4.0
+
+# Server
 uvicorn==0.34.0
-uvicorn
-langchain
-langchain-google-genai
