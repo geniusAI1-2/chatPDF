@@ -6,7 +6,7 @@ langchain==0.1.16
 langchain-community==0.0.33
 langchain-core>=0.1.43,<0.2.0
 langchain-text-splitters==0.0.2
-langchain-google-genai>=2.1.11
+langchain-google-genai==2.1.10
 
 # Vector & embeddings
 faiss-cpu==1.10.0
