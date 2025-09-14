@@ -1,11 +1,11 @@
 fastapi==0.115.14
 pydantic==2.11.7
 
-# LangChain ecosystem
-langchain==0.1.16
-langchain-community==0.0.33
-langchain-core>=0.1.43,<0.2.0
-langchain-text-splitters==0.0.2
+# LangChain ecosystem (all aligned to 0.3.x)
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-core==0.3.15
+langchain-text-splitters==0.3.2
 langchain-google-genai==2.1.10
 
 # Vector & embeddings
@@ -13,7 +13,7 @@ faiss-cpu==1.10.0
 sentence-transformers==3.2.1
 huggingface_hub==0.33.0
 
-# Google Generative AI
+# Google Generative AI (standalone client, still useful)
 google-generativeai==0.8.5
 
 # Utils
