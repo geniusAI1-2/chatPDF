@@ -2,11 +2,12 @@ fastapi==0.115.14
 pydantic==2.11.7
 
 # LangChain ecosystem (all aligned to 0.3.x)
-langchain==0.3.7
-langchain-community==0.3.7
-langchain-core==0.3.15
-langchain-text-splitters==0.3.2
-langchain-google-genai==2.1.10
+langchain
+langchain-community
+langchain-google-genai
+langchain-text-splitters
+langchain-core
+
 
 # Vector & embeddings
 faiss-cpu==1.10.0
@@ -22,3 +23,4 @@ pypdf==5.4.0
 
 # Server
 uvicorn==0.34.0
+
